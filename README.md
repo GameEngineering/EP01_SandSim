@@ -32,4 +32,16 @@ There are multiple examples provided to show how to get up and running. For each
     - run `bash ./proc/linux/compile_linux_gcc.sh`
     - The exectuable will be placed in `bin/`
     - run `./bin/SandSim`
-    
+
+## Controls
+  - `[`: Decrease paint tool radius
+  - `]`: Increase paint tool radius
+  - `c`: Clear canvas of all particles
+  - `i`: Enable/Disable all UI
+  - `p`: Pause simulation
+  - `b`: Enable/Disable post-processing
+  - `esc`: Quit application
+  - Left click mouse to `paint` particles into scene
+  - Right click mouse to erase particles from scene
+  - The user can drag & drop images into the program. Any `.png`, `.jpeg/.jpg` images will work. 
+
