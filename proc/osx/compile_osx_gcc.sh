@@ -12,8 +12,8 @@ flags=(
 
 # Include directories
 inc=(
-	-I ../../../include/				# Gunslinger includes
-	-I ../include/						# SandSim includes
+	-I ../third_party/include/gunslinger/	# Gunslinger includes
+	-I ../include/							# SandSim includes
 )
 
 # Source files
@@ -23,7 +23,7 @@ src=(
 )
 
 lib_dirs=(
-	-L ../../../bin/
+	-L ../third_party/libs/osx
 )
 
 fworks=(
@@ -36,7 +36,7 @@ fworks=(
 )
 
 libs=(
-	-lGunslinger
+	-lgunslinger
 )
 
 # Build
