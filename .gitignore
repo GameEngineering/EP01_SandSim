@@ -1,0 +1,10 @@
+
+*.db
+*.opendb
+*.ipch
+*.obj
+*.exe
+sand_sim/.vs/sand_sim/v15/.suo
+sand_sim/.vs/slnx.sqlite
+sand_sim/.vs/VSWorkspaceState.json
+sand_sim/.vs/ProjectSettings.json
