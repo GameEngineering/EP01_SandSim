@@ -42,7 +42,7 @@ Inspired by Noita, this is a simple "falling sand" simulation to demonstrate the
   - `p`: Pause simulation
   - `b`: Enable/Disable post-processing
   - `esc`: Quit application
-  - Left click mouse to `paint` particles into scene
+  - Left click mouse to paint particles into scene
   - Right click mouse to erase particles from scene
   - The user can drag & drop images into the program. Any `.png`, `.jpeg/.jpg` images will work. 
 
