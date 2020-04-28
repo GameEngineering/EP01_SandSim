@@ -1,4 +1,4 @@
-# EP01_SandSim
+# Game Engineering | Episode 01 - Recreating Noita's Falling Sand Simulation
 
 <p align="left">
   <img width="460" height="300" src="assets/vid_thumb.png">
