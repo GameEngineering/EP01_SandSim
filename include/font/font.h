@@ -1,7 +1,7 @@
 #ifndef GS_SAND_SIM_FONT_H
 #define GS_SAND_SIM_FONT_H
 
-#include "gs.h"
+#include <gs/gs.h>
 
 // For this font, Each glyph is monospaced, 5 x 7 pixels.
 // Total font size is 128 x 64.
@@ -24,8 +24,8 @@ typedef struct font_t
 	u32 height;
 	u32 num_comps;
 	u32 glyph_advance;
-	gs_texture_format texture_format;
-	font_glyph_t glyphs[ total_num_font_glyphs ];
+	gs_graphics_texture_format_type texture_format;
+	font_glyph_t glyphs[total_num_font_glyphs];
 } font_t;
 
 #endif
