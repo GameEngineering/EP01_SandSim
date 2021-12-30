@@ -18,19 +18,19 @@ Inspired by Noita, this is a simple "falling sand" simulation to demonstrate the
     - You'll need to have Visual Studio 2015 or greater.
     - From start menu, search for "x64 Native Tool Command Prompt for {Insert your Version Here}"
     - Navigate to where you have `EP01_SandSim` repo placed
-    - run `proc\win\compile_win_cl.bat`
+    - run `proc\win\cl.bat`
     - The executable will be placed in `bin\`
     - run `bin\SandSim.exe`
   - **mac**:
     - You'll need gcc
     - From the terminal, `cd`into the root directory for this project.
-    - run `bash ./proc/osx/compile_osx_gcc.sh`
+    - run `bash ./proc/osx/gcc.sh`
     - The exectuable will be placed in `bin/`
     - run `./bin/SandSim`
   - **linux**: 
     - You'll need gcc
     - From the terminal, `cd` into the root directory for this project.
-    - run `bash ./proc/linux/compile_linux_gcc.sh`
+    - run `bash ./proc/linux/gcc.sh`
     - The exectuable will be placed in `bin/`
     - run `./bin/SandSim`
 
