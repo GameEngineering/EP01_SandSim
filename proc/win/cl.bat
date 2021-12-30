@@ -17,7 +17,7 @@ set src_all=%src_main%
 
 rem OS Libraries
 set os_libs= opengl32.lib kernel32.lib user32.lib ^
-shell32.lib vcruntime.lib msvcrt.lib gdi32.lib Advapi32.lib
+shell32.lib vcruntime.lib msvcrt.lib gdi32.lib Winmm.lib Advapi32.lib
 
 rem Link options
 set l_options=/EHsc /link /SUBSYSTEM:CONSOLE /NODEFAULTLIB:msvcrt.lib

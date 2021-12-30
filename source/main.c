@@ -35,7 +35,6 @@ typedef struct particle_t {
 
 // Globals
 gs_global gs_command_buffer_t 						g_cb = {0};
-gs_global gs_immediate_draw_t 						g_gsi = {0};
 gs_global gs_handle(gs_graphics_vertex_buffer_t) 	g_vbo = {0};
 gs_global gs_handle(gs_graphics_index_buffer_t) 	g_ibo = {0};
 gs_global gs_handle(gs_graphics_shader_t) 			g_shader = {0};
