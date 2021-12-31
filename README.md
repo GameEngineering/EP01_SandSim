@@ -30,7 +30,7 @@ Inspired by Noita, this is a simple "falling sand" simulation to demonstrate the
   - **linux**: 
     - You'll need gcc
     - From the terminal, `cd` into the root directory for this project.
-    - run `bash ./proc/linux/gcc.sh`
+    - run `bash ./proc/linux/compile_linux_gcc.sh`
     - The exectuable will be placed in `bin/`
     - run `./bin/SandSim`
 
