@@ -12,8 +12,8 @@ flags=(
 
 # Include directories
 inc=(
-	-I ../third_party/include/gunslinger/	# Gunslinger includes
-	-I ../include/							# SandSim includes
+	-I ../third_party/include/		# Gunslinger includes
+	-I ../include/					# SandSim includes
 )
 
 # Source files
@@ -26,14 +26,7 @@ lib_dirs=(
 	-L ../third_party/libs/linux/
 )
 
-libs=(
-	-lgunslinger
-)
-
 # Build
-gcc -O3 ${inc[*]} ${src[*]} ${flags[*]} ${lib_dirs[*]} ${libs[*]} -lm -o SandSim
+gcc -O3 ${inc[*]} ${src[*]} ${flags[*]} ${lib_dirs[*]} -lm -o SandSim
 
 cd ..
-
-
-
