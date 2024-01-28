@@ -22,9 +22,8 @@ Inspired by Noita, this is a simple "falling sand" simulation to demonstrate the
     - The executable will be placed in `bin\`
     - run `bin\SandSim.exe`
   - **mac**:
-    - You'll need gcc
     - From the terminal, `cd`into the root directory for this project.
-    - run `bash ./proc/osx/gcc.sh`
+    - run `bash ./proc/osx/clang.sh`
     - The exectuable will be placed in `bin/`
     - run `./bin/SandSim`
   - **linux**: 
